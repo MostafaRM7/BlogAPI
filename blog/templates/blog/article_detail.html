@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block body %}
+        <article>
+            <h2>
+                {{ object.title }}
+            </h2>
+            <div>
+                {{ object.author }}
+            </div>
+            <div>
+                {{ object.publish }}
+            </div>
+            <p>{{ object.body }}</p>
+            <hr>
+        </article>
+{% endblock %}
